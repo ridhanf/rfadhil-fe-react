@@ -33,12 +33,7 @@ export default function App() {
                 className='section'
                 img='./Capture1.PNG' 
                 title='My Mission' 
-                description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.'
+                description='To put kindness into people hearts.'
             />
             <ContactContainer/>
         </div>
@@ -97,7 +92,7 @@ const ContactContainer = () => {
                     <span>Contact me and I will get back to you within 24 hours.</span>
                     <span>
                         <i className="fas fa-map-marker-alt"></i>
-                        Bandung, Indonesi
+                        Bandung, Indonesia
                     </span>
                     <span>
                         <i className="fas fa-mobile-alt"></i>
