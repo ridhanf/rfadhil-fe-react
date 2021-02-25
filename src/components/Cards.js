@@ -10,16 +10,20 @@ function Card() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/project-1.png'
+              text='Landing page with paper rock scissors game and CRUD Dashboard'
+              label='HTML CSS Bootstrap NodeJS Express PostgreSQL Sequelize'
               path='/services'
+              live='https://binar-challenge.herokuapp.com/'
+              source='https://github.com/ridhanf/binar-portfolio/'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/project-2.png'
+              text='Simple CRUD app using Node and Sequelize ORM.'
+              label='NodeJS Express PostgreSQL Sequelize'
               path='/services'
+              live='https://fadhil-node-crud.herokuapp.com/articles'
+              source='https://github.com/ridhanf/node-sequelize-CRUD/'
             />
           </ul>
           <ul className='cards__items'>
