@@ -26,7 +26,7 @@ function Card() {
               source='https://github.com/ridhanf/node-sequelize-CRUD/'
             />
           </ul>
-          <ul className='cards__items'>
+          {/* <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
@@ -45,7 +45,7 @@ function Card() {
               label='Adrenaline'
               path='/sign-up'
             />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
