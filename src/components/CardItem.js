@@ -6,7 +6,7 @@ function CardItem(props) {
   return (
     <>
       <li className='cards__item'>
-        <Link className='cards__item__link' to={props.path}>
+        <Link className='cards__item__link' to={props.path} target='_blank'>
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img 
               className='cards__item__img'
@@ -19,10 +19,20 @@ function CardItem(props) {
             <Container>
               <Row>
                 <Col>
-                  <a href={props.live}>LIVE</a>
+                  <Link
+                    to={props.path}
+                    target='_blank'
+                  >
+                    LIVE
+                  </Link>
                 </Col>
                 <Col>
-                  <a href={props.source}>SOURCE</a>
+                  <Link
+                    to={props.source}
+                    target='_blank'
+                  >
+                    Source
+                  </Link>
                 </Col>
               </Row>
             </Container>
