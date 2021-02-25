@@ -11,17 +11,33 @@ function Card() {
           <ul className='cards__items'>
             <CardItem
               src='images/project-1.png'
-              text='Landing page with paper rock scissors game and CRUD Dashboard'
-              label='HTML CSS Bootstrap NodeJS Express PostgreSQL Sequelize'
+              text='Landing Page with Rock Paper Scissors Game and CRUD Dashboard'
+              label='HTML CSS Bootstrap'
               path='//binar-challenge.herokuapp.com/'
               source='//github.com/ridhanf/binar-portfolio/'
             />
             <CardItem
               src='images/project-2.png'
-              text='Simple CRUD app using Node and Sequelize ORM.'
+              text='Simple CRUD App for Articles Management'
               label='NodeJS Express PostgreSQL Sequelize'
               path='//fadhil-node-crud.herokuapp.com/articles'
               source='//github.com/ridhanf/node-sequelize-CRUD/'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/project-3.png'
+              text='Simple Rock Paper Scissors Game'
+              label='HTML CSS JavaScript'
+              path='//binar-challenge.herokuapp.com/game'
+              source='//github.com/ridhanf/binar-portfolio/'
+            />
+            <CardItem
+              src='images/project-4.png'
+              text='Simple CRUD Dashboard for Users Management'
+              label='NodeJS Express PostgreSQL Sequelize'
+              path='//binar-challenge.herokuapp.com/dashboard'
+              source='//github.com/ridhanf/binar-portfolio/'
             />
           </ul>
           {/* <ul className='cards__items'>
