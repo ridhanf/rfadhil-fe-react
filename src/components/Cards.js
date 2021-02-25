@@ -13,17 +13,15 @@ function Card() {
               src='images/project-1.png'
               text='Landing page with paper rock scissors game and CRUD Dashboard'
               label='HTML CSS Bootstrap NodeJS Express PostgreSQL Sequelize'
-              path='/services'
-              live='https://binar-challenge.herokuapp.com/'
-              source='https://github.com/ridhanf/binar-portfolio/'
+              path='//binar-challenge.herokuapp.com/'
+              source='//github.com/ridhanf/binar-portfolio/'
             />
             <CardItem
               src='images/project-2.png'
               text='Simple CRUD app using Node and Sequelize ORM.'
               label='NodeJS Express PostgreSQL Sequelize'
-              path='/services'
-              live='https://fadhil-node-crud.herokuapp.com/articles'
-              source='https://github.com/ridhanf/node-sequelize-CRUD/'
+              path='//fadhil-node-crud.herokuapp.com/articles'
+              source='//github.com/ridhanf/node-sequelize-CRUD/'
             />
           </ul>
           {/* <ul className='cards__items'>
