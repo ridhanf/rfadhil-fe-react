@@ -11,25 +11,25 @@ function HeroSection() {
       <h1>PORTFOLIO WEBSITE</h1>
       <p>by Ridhan Fadhilah</p>
       <div className="hero-btns">
-        <Link to='/resume' className='btn-mobile'>
+        <Link to='//github.com/ridhanf' target='_blank' className='btn-mobile'>
           <Button
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn--large'
           >
-            SEE RESUME
+            SEE GITHUB
           </Button>
         </Link>
-        <Link to='/' className='btn-mobile'>
-          <Button 
-            className='btns' 
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'
-          >
+        <Button 
+          className='btns' 
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+        >
+          <a href='#portfolios' style={{textDecoration: 'none', color: 'black'}}>
             PORTFOLIOS
-            <i className='far fa-play-circle' />
-          </Button>
-        </Link>
+          </a>
+          <i className='far fa-play-circle' />
+        </Button>
       </div>
     </div>
   )
