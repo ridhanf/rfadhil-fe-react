@@ -47,11 +47,22 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link 
-                to='/resume' 
+                to='//www.linkedin.com/in/ridhanf' 
+                target='_blank'
                 className='nav-links' 
                 onClick={closeMobileMenu}
               >
-                Resume
+                LinkedIn
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link 
+                to='//github.com/ridhanf'
+                target='_blank'
+                className='nav-links' 
+                onClick={closeMobileMenu}
+              >
+                GitHub
               </Link>
             </li>
             <li className='nav-item'>
