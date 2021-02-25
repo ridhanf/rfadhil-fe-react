@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -19,8 +19,9 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
-      <div class='footer-links'>
+      </section> */}
+
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
@@ -54,7 +55,8 @@ function Footer() {
             <Link target='_blank' to='//www.twitter.com/HighTechCode'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
+
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
@@ -67,11 +69,19 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='//github.com/ridhanf'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i class='fab fa-github' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='//www.linkedin.com/in/ridhanf'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin' />
             </Link>
             <Link
               class='social-icon-link instagram'
@@ -82,14 +92,6 @@ function Footer() {
               <i class='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
               class='social-icon-link twitter'
               to='//www.twitter.com/HighTechCode'
               target='_blank'
@@ -97,14 +99,14 @@ function Footer() {
             >
               <i class='fab fa-twitter' />
             </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='//www.linkedin.com/in/ridhanf'
+            {/* <Link
+              class='social-icon-link youtube'
+              to='/'
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='Youtube'
             >
-              <i class='fab fa-linkedin' />
-            </Link>
+              <i class='fab fa-youtube' />
+            </Link> */}
           </div>
         </div>
       </section>
