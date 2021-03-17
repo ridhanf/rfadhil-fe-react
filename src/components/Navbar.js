@@ -36,7 +36,7 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link 
                 to='/' 
                 className='nav-links' 
@@ -44,16 +44,11 @@ function Navbar() {
               >
                 Home
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link 
-                to='//www.linkedin.com/in/ridhanf' 
-                target='_blank'
-                className='nav-links' 
-                onClick={closeMobileMenu}
-              >
-                LinkedIn
-              </Link>
+            </li> */}
+             <li className='nav-item'>
+              <a className='nav-links' href='#portfolios' onClick={closeMobileMenu}>
+                Portfolios
+              </a>
             </li>
             <li className='nav-item'>
               <Link 
@@ -66,13 +61,18 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-links' href='#portfolios' onClick={closeMobileMenu}>
-                Portfolios
-              </a>
+              <Link 
+                to='//www.linkedin.com/in/ridhanf' 
+                target='_blank'
+                className='nav-links' 
+                onClick={closeMobileMenu}
+              >
+                LinkedIn
+              </Link>
             </li>
             <li>
               <Link 
-                to='/sign-up' 
+                to='' 
                 className='nav-links-mobile ' 
                 onClick={closeMobileMenu}
               >
@@ -80,7 +80,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Link to='/sign-up' className='btn-mobile'><Button buttonStyle='btn--outline'>SIGN UP</Button></Link>}
+          {button && <Link to='' className='btn-mobile'><Button buttonStyle='btn--outline'>SIGN UP</Button></Link>}
         </div>
       </nav>
     </>
