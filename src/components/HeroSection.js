@@ -21,16 +21,16 @@ function HeroSection() {
             SEE GITHUB
           </Button>
         </Link>
-        <Button 
-          className='btns' 
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-        >
-          <a href='#portfolios' style={{textDecoration: 'none', color: 'black'}}>
-            PORTFOLIOS
-          </a>
-          <i className='far fa-play-circle' />
-        </Button>
+        <a href='#portfolios' style={{textDecoration: 'none', color: 'black'}}>
+          <Button 
+            className='btns' 
+            buttonStyle='btn--primary'
+            buttonSize='btn--large'
+          >
+              PORTFOLIOS
+            <i className='far fa-play-circle' />
+          </Button>
+        </a>
       </div>
     </div>
   )
